@@ -1,0 +1,75 @@
+@media screen and (max-width:1000px) {
+    body {
+        background: #000;
+    }
+
+    header {
+        height: 15vh;
+    }
+
+    nav {
+        ;
+        flex-direction: column;
+    }
+
+    .logo {
+        height: 6vh;
+        padding-top: 15px;
+        justify-content: center;
+    }
+
+    nav ul {
+        justify-content: center;
+
+    }
+
+    nav ul li {
+        padding-top: 0px;
+        padding-bottom: 65px;
+    }
+
+    
+
+    .search {
+        width: 95vw;
+        height: 2vh;
+        position: absolute;
+        padding-top: 105px;
+        padding-left: 10px;
+    }
+
+    .slider-wrap {
+        height: 50vh;
+        width: 80VW;
+    }
+
+    .search input {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px
+    }
+
+    .search button {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px
+    }
+
+    .containor1 {
+        padding-top: 15px;
+    }
+
+    .containor2 h2 {
+        color: white;
+        center;
+        bottom: 28%;
+        padding-left: 40%;
+    }
+
+    .card {
+        height: 10vh;
+        bottom: 10%;
+
+        margin-left: 20%;
+    }
+}
+
+;
